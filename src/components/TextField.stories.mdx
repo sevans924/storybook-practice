@@ -1,0 +1,28 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { PrimaryInput, ErrorInput, Label, ErrorLabel } from "./TextField";
+
+<Meta title="Design System|Text Field" component={PrimaryInput} />
+
+# Text Fields
+
+## Usage
+
+
+## Inverted Primary Text Field
+
+
+<Preview withToolbar>
+  <Story name="primary-input">
+    <Label>Label</Label>
+    <PrimaryInput/>
+  </Story>
+</Preview>
+
+## Text Field with Error
+
+
+<Story name="error-input">
+   <ErrorLabel>Label</ErrorLabel>
+    <ErrorInput placeholder="Content"></ErrorInput>
+    <ErrorLabel>Input is invalid</ErrorLabel>
+</Story>

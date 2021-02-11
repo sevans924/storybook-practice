@@ -1,0 +1,31 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { InvertedPrimaryInput, InvertedErrorInput, InvertedLabel, InvertedErrorLabel } from "./InvertedTextField";
+
+<Meta title="Design System|Inverted Text Field" component={InvertedPrimaryInput} />
+
+# Text Fields
+
+
+## Usage
+
+
+## Inverted Primary Text Field
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Preview withToolbar>
+  <Story name="inverted-primary-input">
+    <InvertedLabel>Label</InvertedLabel>
+    <InvertedPrimaryInput/>
+  </Story>
+</Preview>
+
+## Inverted Text Field with Error
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Story name="inverted-error-input">
+<InvertedErrorLabel>Label</InvertedErrorLabel>
+    <InvertedErrorInput/>
+    </Story>
+
